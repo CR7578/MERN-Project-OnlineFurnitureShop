@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* Navrbar CSS */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0 solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-brand {
+  font-family: 'roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+/* Navrbar CSS */
+
+/* Page 404 Not Found */
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: black;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+/* Page 404 Not Found */
+
+
+/* Footer CSS */
+.footer {
+  color: white;
+  padding: 8px;
+  background: black;
+  background: -webkit-linear-gradient(to right, gray, black);
+  background: linear-gradient(to right, gray, black);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: white;
+  border-bottom: 2px solid #ffefba;
+}
+
+.furniture {
+  text-decoration: none;
+  color: black;
+}
