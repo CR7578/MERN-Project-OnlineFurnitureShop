@@ -85,7 +85,7 @@ The **Online Furniture Shop** offers several advantages, including:
 **Follow these steps** to set up and run the project on your local machine.
 
 **1. Open in VSCode**
-Open Visual Studio Code.
+Open Visual Studio Code and press "Shift + ctrl + `" to open New terminal.
 
 **2. Clone the repository**
 - Clone Github repo project source code 
@@ -122,15 +122,15 @@ cd ..
 
 **4. Run the Application**
 To run the website:
-
-In the terminal, navigate to the root directory of the project.
-
-Run the following command to start both the server and the React application concurrently:
-
+- In the terminal, navigate to the root directory of the project.
+- Run the following command to start both the server and the React application concurrently:
 ```bash
 npm run dev
 ```
 This will start the server and the frontend React app. You can access the website on your default browser at http://localhost:3000.
+
+## To stop the website:
+- In the terminal of VScode press "Ctrl + C".
 
 Usage
 For Users: Browse and purchase various furniture items, manage your cart, and complete checkout.
