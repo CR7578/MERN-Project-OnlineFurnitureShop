@@ -120,7 +120,43 @@ After the installation is complete, go back to the main folder by running:
 cd ..
 ```
 
-**4. Run the Application**
+**3. Setup Environment Variables**
+- Create a .env file in the backend directory with the following variables:
+
+Edit this .env values
+```text
+PORT=8080
+MONGODB_URL=mongodb://127.0.0.1:27017/<DATABASE NAME >
+JWT_SECRET=<JWT TOKEN VALUE>
+BRAINTREE_MERCHANT_ID =<BRAINTREE_MERCHANT_ID VALUE>
+BRAINTREE_PUBLIC_KEY = <BRAINTREE_PUBLIC_KEY VALUE>
+BRAINTREE_PRIVATE_KEY = <BRAINTREE_PUBLIC_KEY VALUE>
+```
+## Note: Refer This youtube video for getting BRAINTREE Values
+https://www.youtube.com/watch?v=QyunIFPa2rI&list=PLuHGmgpyHfRzhGkSUfY0vpi67X64g0mXB&index=26
+
+**4. Set Up MongoDB**
+- Before running the application, ensure you have MongoDB installed and configured on your local system.
+
+## Install MongoDB on Your System
+Download and install MongoDB from the official MongoDB website.
+**Follow the installation instructions** for your operating system.
+Once installed, start the MongoDB service:
+--> On Windows, use the MongoDB Compass application or start the MongoDB service via command prompt.
+--> On macOS, run brew services start mongodb-community if you used Homebrew for installation.
+**Create an Empty Database**
+**Open the MongoDB shell or MongoDB Compass.**
+- Create a new database by running the following command in the MongoDB shell:
+```bash
+use <DATABASE NAME >
+```
+This will create an empty database named onlineFurnitureShop.
+
+- If using MongoDB Compass, create a new database via the GUI interface.
+
+
+
+**5. Run the Application**
 To run the website:
 - In the terminal, navigate to the root directory of the project.
 - Run the following command to start both the server and the React application concurrently:
