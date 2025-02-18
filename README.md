@@ -80,4 +80,57 @@ The **Online Furniture Shop** offers several advantages, including:
 - **Increased Engagement and Conversion Rates:** A user-friendly interface encourages more interaction and higher sales.
 - **Higher Sales Potential:** By providing a seamless shopping experience, the system can drive more sales and boost revenue.
 
+## Installation Guide
+
+**Follow these steps** to set up and run the project on your local machine.
+
+**1. Open in VSCode**
+Open Visual Studio Code.
+
+**2. Clone the repository**
+```bash
+git clone https://github.com/CR7578/MERN-Project-OnlineFurnitureShop.git
+```
+**Install the necessary npm packages** for the server-side by running:
+- This will download and install all required dependencies listed in the package.json file and create a node_modules folder in the server directory.
+```bash
+npm i
+```
+
+**Client-side (Frontend)**
+- After installing the server-side dependencies, navigate to the client directory by running:
+```bash
+cd client
+```
+
+- Install the required npm packages in client folder for React by running:
+```bash
+npm i
+```
+This will install the necessary packages for the frontend.
+
+After the installation is complete, go back to the main folder by running:
+```bash
+cd ..
+```
+
+**4. Run the Application**
+To run the website:
+
+In the terminal, navigate to the root directory of the project.
+
+Run the following command to start both the server and the React application concurrently:
+
+```bash
+npm run dev
+```
+This will start the server and the frontend React app. You can access the website on your default browser at http://localhost:3000.
+
+Usage
+For Users: Browse and purchase various furniture items, manage your cart, and complete checkout.
+For Admins: Admin users can manage product listings, view orders, and update inventory through the admin dashboard.
+
+Contributing 🤝
+We welcome contributions! If you find any issues or want to suggest improvements, feel free to create an issue or submit a pull request.
+
 ---
