@@ -121,7 +121,7 @@ cd ..
 ```
 
 **3. Setup Environment Variables**
-- Create a .env file in the backend directory with the following variables:
+- Edit a .env file in the Main directory with the following variables:
 
 Edit this .env values
 ```text
