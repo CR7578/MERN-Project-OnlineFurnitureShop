@@ -140,10 +140,13 @@ https://www.youtube.com/watch?v=QyunIFPa2rI&list=PLuHGmgpyHfRzhGkSUfY0vpi67X64g0
 
 ## Install MongoDB on Your System
 Download and install MongoDB from the official MongoDB website.
+
 **Follow the installation instructions** for your operating system.
+
 Once installed, start the MongoDB service:
 --> On Windows, use the MongoDB Compass application or start the MongoDB service via command prompt.
 --> On macOS, run brew services start mongodb-community if you used Homebrew for installation.
+
 **Create an Empty Database**
 **Open the MongoDB shell or MongoDB Compass.**
 - Create a new database by running the following command in the MongoDB shell:
