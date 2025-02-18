@@ -92,7 +92,7 @@ Open Visual Studio Code.
 ```bash
 git clone https://github.com/CR7578/MERN-Project-OnlineFurnitureShop.git
 ```
--change the directory into cloned project
+- Change the directory into cloned project
 ```bash
 cd MERN-Project-OnlineFurnitureShop
 ```
