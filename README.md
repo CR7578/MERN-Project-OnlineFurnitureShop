@@ -88,9 +88,15 @@ The **Online Furniture Shop** offers several advantages, including:
 Open Visual Studio Code.
 
 **2. Clone the repository**
+- Clone Github repo project source code 
 ```bash
 git clone https://github.com/CR7578/MERN-Project-OnlineFurnitureShop.git
 ```
+-change the directory into cloned project
+```bash
+cd MERN-Project-OnlineFurnitureShop
+```
+
 **Install the necessary npm packages** for the server-side by running:
 - This will download and install all required dependencies listed in the package.json file and create a node_modules folder in the server directory.
 ```bash
