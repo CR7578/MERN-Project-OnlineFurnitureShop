@@ -1,0 +1,2 @@
+# Ignore the node_modules directory, which contains all installed npm packages.
+node_modules/
